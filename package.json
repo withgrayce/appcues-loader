@@ -1,0 +1,36 @@
+{
+  "name": "appcues-loader",
+  "description": "Async loader for the Appcues api",
+  "version": "0.0.1",
+  "author": "Aubrey Holland <aubrey@withgrayce.com>",
+  "keywords": [
+    "appcues",
+    "asynchronous",
+    "async",
+    "loader",
+    "browser",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/withgrayce/appcues-loader.git"
+  },
+  "license": "MIT",
+  "main": "./lib/cjs/index.js",
+  "types": "./lib/types/index.d.ts",
+  "module": "./lib/esm/index.js",
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json"
+  },
+  "bugs": {
+    "url": "https://github.com/withgrayce/appcues-loader/issues"
+  },
+  "homepage": "https://github.com/withgrayce/appcues-loader#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
